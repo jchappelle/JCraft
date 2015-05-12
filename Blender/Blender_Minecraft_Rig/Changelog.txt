@@ -1,0 +1,331 @@
+        *** Blender Rig Changelog ***
+
+ - Rig By: rymdnisse -
+
+Youtube: youtube.com/rymdnisse
+Twitter: twitter.com/rymdnisse
+Facebook: facebook.com/rymdnisse
+Website: rymdnisse.net
+
+»--» »--»»--» »--»»--» »--»»--» »--»»--» »--»»--» »--»»--» »--»
+Rig Download: rymdnisse.net/downloads/minecraft-blender-rig.html
+Blender Download: blender.org/download/
+(This rig is also avalible for Blenders Cycle Render Engine, Download it from the website)
+»--» »--»»--» »--»»--» »--»»--» »--»»--» »--»»--» »--»»--» »--»
+
+
+Are You Missing Something?
+Submit it on the download page in the comment section!
+
+¤ Update 2.7: (2015-02-28) ¤
+============================
+**Added**
+
+• Sugarcane
+• Block breaking animation system with controls
+• Potatoes And Carrots in all 4 growing states
+• 1.8 Doors
+• A more detalied 3D enchantment table
+• Park Bench
+• Custom Item (Load any 16x16 image onto it and it will render as a 3D item)
+• Upgraded the wolf rig
+• Upgraded the enderdragon rig
+Character rig:
+• Possibility for more detailied controls
+• Colored Bones
+• Improved eye tracking
+• Option to scale breasts and waist to create a generic female figure
+
+
+(Updated in Blender verision 2.73a)
+============================
+
+
+
+¤ Update 2.6: (2014-08-06) ¤
+============================
+**Added**
+
+• Tons of new items
+• Rabbit
+• Banner
+• 1.8 skin support for the character rig
+• Driver to toggle the 2nd skin layer on character rig
+• Custom bones for the character rig
+• Bendable feet for the character rig
+• Red Sandstone blocks
+• Armor Stand
+
+
+**Fixed**
+
+• Re-created most of the items now with +60000 less vertecies
+• Removed a lot of unessisary packed textures
+• Removed prefixes such as Block_ and Item_
+• The failed UV map for birch wood
+• The failed weightpaint on the horse
+• Improved IK/FK switch for the character rig
+• Smoother body bend for the character rig
+• Removed some stuffs from the simple rig
+• New cloud material
+• Drivers to connect IK arms to body has been moved
+
+(Updated in Blender verision 2.71)
+============================
+
+
+¤ Update 2.5: (2014-06-22) ¤
+============================
+**Added**
+
+• Endermite
+• Guardian
+• Elder Guardian
+• Wet sponge
+• Sea lantern
+• all Prismarine blocks
+
+**Fixed**
+
+• Moved the slimeblock to layer 1
+• New sponge texture
+
+(Updated in Blender verision 2.70a)
+============================
+
+
+¤ Update 2.4: (2014-05-11) ¤
+============================
+**Added**
+
+• 3D ore
+• Carrot Item
+• New Enchanting Table Book
+• Enchanting Particles
+• Cactus
+• Barrier
+• Iron Trapdoor
+• Slime Block
+• Granite
+• Polished Granite
+• Diorite
+• Polished Diorite
+• Andesite
+• Polished Andesite
+• New Features to the Character Rig:
+		Driver to Connect the IK arms to the body
+		Driver to remove fasical features
+		Driver to remove Fingers
+		Driver to make the face "flat"
+
+
+**Fixed**
+
+• The failed Weightppaint on the Cow
+• Remade the chests
+• Lava now has the new lava texture
+• Named the disc item
+
+
+(Updated in Blender verision 2.70a)
+============================
+
+¤ Update 2.3: (2014-03-09) ¤
+============================
+**Added**
+
+• New Character rig
+• 3D looking TNT block
+
+**Fixed**
+
+• Filter size of most textures has been changed from 1 to 0.1 
+
+
+(Updated in Blender verision 2.69)
+============================
+
+¤ Update 2.2: (2014-02-07) ¤
+============================
+**Added**
+
+• Iron Golem Rig
+• New disc with ability to change color
+• Leather Armour with dyeing ability (item)
+• Better Glass
+• End Stone
+• Acacia, Dark Oak and Quartz Stairs and Slabs
+• A main bone for all the mobs using IK rigs
+• 3D Pumpkin
+• New Signs And Minecart with the correct Textures
+• Wither Skull as beeing fired from the Wither
+• Remade all the Tools and gave them a better 3D look
+• Added wearable Leather Armour With dyeing ability
+• a New Bed
+• Animated Fire using Image Sequence
+
+
+**Fixed**
+
+• The transparency of the hat
+• Sorted out all the Textures and Materials
+• Remade the Torches & Redstone Torches
+• Renamed Alot of Blocks and Items
+• Renamed All the Bones in the Mob rig
+• The Enderdragon rig, where IK tales and neck wouldn't follow the body
+• Added Missing Textures to the Texture folder
+• Overlapping texture for the tools(items)
+• Location limits for the Pistons
+• Renamed the "Minecraft_AllBlocks_Rig" to "Minecraft_Blocks_Rig"
+• Lava, Glowstone and the Redstone Lamp now have a bit of Emit
+
+
+(Updated in Blender verision 2.69)
+============================
+
+
+¤ Update 2.1: (2014-01-01) ¤
+============================
+**Added**
+
+• A New .blend file! "New_3D"
+• More 3D depth Bookshelf, Furnace and Crafting Table
+• Two Guns
+• A 3D Bucket, Bowl and Backpack (Inspired by Bootstrap Buckaroo)
+• A New Bow with shooting function
+• Enderportal
+• Beacon Block
+• Dark Oak Sapling
+• Fern
+• Portal Frame
+• Enderdragon Egg
+• More Leaves
+• Item Frame
+• Lilly Pad
+• Cocoa Beans
+• Stained Clay: Black, Gray and Brown.
+• Brewing Stand
+• Cake (With separate pieces)
+• New Doors and Trapdoor
+• Mushroom Blocks
+• EnderCrystal
+
+**Fixed**
+
+• Steves bones in the Simple Rig
+• Texture bug for Creeper, Zombie, Ocelot, Spider, Bat and Enderman
+• Scaled up the Wither Skelleton a bit
+
+(Updated in Blender verision 2.68a)
+============================
+
+
+¤ Update 2.0: (2013-11-02) ¤
+============================
+• Added New Blocks: Enderchest, Flowerpot, Paintings, 1.7 blocks.
+• Added Saplings, Cobweb, Dead bush, Vine, Mushrooms, 1.7 flowers.
+• Added 1.7 Fishes
+• Added New Mobs: Ghast, Ocelot, Bat and Snowman
+• Added Potion Bottle
+• Added Saddle (Pig and Horse)
+• Added Shapekeys and Drivers to most of the mobs
+• Added A new advanced Character rig
+• Added A Cape (with alternetive cloth physics features)
+• Added a new FK rig with better bends to the "Minecraft_Simple_Rig"
+• Fixed The Bed Texture.
+
+
+(Updated in Blender verision 2.68a)
+============================
+
+
+¤ Update 1.9: (2013-07-31) ¤
+============================
+• Added Hat Support + Fixed Zombie Pigmans blury hat.
+• Added Fishing Hook
+• Added Heart Particle
+• Added Torch Flame/Particle
+• Added 1.6 Blocks
+• Added Horse
+• Added Blaze
+• Added Silverfish
+• Added "Pumpkin pie" and a "disc"
+• Made the sun and moon in a "cirkle"
+• Removed un-nessysary faces in the item rig
+• Re-sized all Blocks
+• Fixed large chest bug
+• Made chests openable 180 degrees
+
+• Fixed The 1.6 Texture Bug, Huge thanks to: MineToBlend for helping us! (http://www.youtube.com/MineToBlend)
+
+(Updated in Blender verision 2.68a)
+============================
+
+
+¤ Update 1.8: (2013-06-01) ¤
+============================
+***
+LapisKS Joined the making of this rig! - http://www.youtube.com/LapisKS
+***
+• Added Tripwire Hook
+• Added String (Placed as a block)
+• Added 3D Clouds
+• Added Redstone Torches
+• Added Minecart Rails
+• Added Boat
+• Added a moon + a new sun
+• Added Tortches with hidden lamps
+• Made the rig support Node Editor, Game Logic etc. better
+• Fixed a texture bug in the pumpkin
+• Fixed textures in the glass plane
+• Deleted un-needed objects from AllBlocks rig group
+• Renamed bunch of objects (tools and slabs, and other minor things)
+
+(Updated in Blender verision 2.67a)
+============================
+
+
+¤ Update 1.7: (2013-04-29) ¤
+============================
+• Added wieldable armour (Gold, Iron and Diamond)
+• Added Wildgrass
+• Gave bones to the pistons.
+• Added redstone block
+• Added Lapis-Lazuli Item
+• Added a 3D arrow
+
+(Updated in Blender verision 2.66a)
+============================
+
+
+¤ Update 1.6: (2013-04-11) ¤
+============================
+• Added Bones(FK rig) to all the mobs (exept the iron golem)
+• Gave A small nice touch to the tools + fix a texture bug on axes
+• Made the Simple rig even more simple
+• Fixed a transparency bug in steve's texture
+• Updated Texture folder
+• Renamed: "Minecraft_Rig.blend" to "Minecraft_Simple_Rig.blend"
+
+(Updated in Blender verision 2.66a)
+============================
+
+
+¤ Update 1.5: (2013-03-23) ¤
+============================
+• Added Leaver
+• Added Spider Mob
+• Added Fence's and Fencegate
+• Added Ladder
+• Added 1.5 Blocks
+• Added Hoppers
+• Added Half Slabs
+• Added Stairs
+• Added Changelog
+============================
+
+
+»--» »--»»--» »--»»--» »--»»--» »--»»--» »--»»--» »--»»--» »--»
+Rig Download: http://rymdnisse.net/downloads/minecraft-blender-rig.html
+Blender Download: http://www.blender.org/download/
+»--» »--»»--» »--»»--» »--»»--» »--»»--» »--»»--» »--»»--» »--»

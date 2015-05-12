@@ -1,0 +1,290 @@
+package Properties;
+
+import com.cubes.BlockSkin;
+import com.cubes.BlockSkin_TextureLocation;
+
+/**
+ *
+ * @author Perry
+ */
+public interface BlockSkinProperties
+{
+    BlockSkin GRASS_TOP = new BlockSkin(new BlockSkin_TextureLocation(0, 0), false);
+    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(0, 1), false);
+    BlockSkin GOLD_ORE = new BlockSkin(new BlockSkin_TextureLocation(0, 2), false);
+    BlockSkin SPONGE = new BlockSkin(new BlockSkin_TextureLocation(0, 3), false);
+    BlockSkin WOOL = new BlockSkin(new BlockSkin_TextureLocation(0, 4), false);
+    BlockSkin TORCH_LIT = new BlockSkin(new BlockSkin_TextureLocation(0, 5), true);
+    BlockSkin TORCH_UNLIT = new BlockSkin(new BlockSkin_TextureLocation(0, 6), true);
+    BlockSkin TRACK_CURVE = new BlockSkin(new BlockSkin_TextureLocation(0, 7), false);
+    BlockSkin TRACK_STRAIGHT = new BlockSkin(new BlockSkin_TextureLocation(0, 8), false);
+    BlockSkin LAPISBLOCK = new BlockSkin(new BlockSkin_TextureLocation(0, 9), false);
+    BlockSkin LAPIS_ORE = new BlockSkin(new BlockSkin_TextureLocation(0, 10), false);
+    BlockSkin ENDSTONE = new BlockSkin(new BlockSkin_TextureLocation(0, 11), false);
+    BlockSkin ENDCOBBLE1 = new BlockSkin(new BlockSkin_TextureLocation(0, 12), false);
+    BlockSkin ENDCOBBLE2 = new BlockSkin(new BlockSkin_TextureLocation(0, 13), false);
+    BlockSkin NETHER_BRICK = new BlockSkin(new BlockSkin_TextureLocation(0, 14), false);
+    BlockSkin BLOCK_DMG_1 = new BlockSkin(new BlockSkin_TextureLocation(0, 15), true);
+
+    BlockSkin STONE = new BlockSkin(new BlockSkin_TextureLocation(1, 0), false);
+    BlockSkin BEDROCK = new BlockSkin(new BlockSkin_TextureLocation(1, 1), false);
+    BlockSkin IRON_ORE = new BlockSkin(new BlockSkin_TextureLocation(1, 2), false);
+    BlockSkin GLASS = new BlockSkin(new BlockSkin_TextureLocation(1, 3), true);
+    BlockSkin SPAWNER = new BlockSkin(new BlockSkin_TextureLocation(1, 4), true);
+    BlockSkin DOOR_WOOD_TOP = new BlockSkin(new BlockSkin_TextureLocation(1, 5), true);
+    BlockSkin DOOR_WOOD_BOTTOM = new BlockSkin(new BlockSkin_TextureLocation(1, 6), false);
+    BlockSkin WOOL_BLACK = new BlockSkin(new BlockSkin_TextureLocation(1, 7), false);
+    BlockSkin WOOL_RED = new BlockSkin(new BlockSkin_TextureLocation(1, 8), false);
+    BlockSkin WOOL_BROWN = new BlockSkin(new BlockSkin_TextureLocation(1, 9), false);
+    BlockSkin WOOL_DARK_RED = new BlockSkin(new BlockSkin_TextureLocation(1, 10), false);
+    BlockSkin WOOL_BLUE = new BlockSkin(new BlockSkin_TextureLocation(1, 11), false);
+    BlockSkin WOOL_PURPLE = new BlockSkin(new BlockSkin_TextureLocation(1, 12), false);
+    BlockSkin WOOL_AQUA = new BlockSkin(new BlockSkin_TextureLocation(1, 13), false);
+    BlockSkin WOOL_LIGHT_GRAY = new BlockSkin(new BlockSkin_TextureLocation(1, 14), false);
+    BlockSkin BLOCK_DMG_2 = new BlockSkin(new BlockSkin_TextureLocation(1, 15), true);
+
+    BlockSkin DIRT = new BlockSkin(new BlockSkin_TextureLocation(2, 0), false);
+    BlockSkin SAND = new BlockSkin(new BlockSkin_TextureLocation(2, 1), false);
+    BlockSkin COAL_ORE = new BlockSkin(new BlockSkin_TextureLocation(2, 2), false);
+    BlockSkin DIAMOND_ORE = new BlockSkin(new BlockSkin_TextureLocation(2, 3), false);
+    BlockSkin SNOW = new BlockSkin(new BlockSkin_TextureLocation(2, 4), false);
+    BlockSkin DOOR_IRON_TOP = new BlockSkin(new BlockSkin_TextureLocation(2, 5), true);
+    BlockSkin DOOR_IRON_BOTTOM = new BlockSkin(new BlockSkin_TextureLocation(2, 6), false);
+    BlockSkin WOOL_DARK_GRAY = new BlockSkin(new BlockSkin_TextureLocation(2, 7), false);
+    BlockSkin WOOL_PINK = new BlockSkin(new BlockSkin_TextureLocation(2, 8), false);
+    BlockSkin WOOL_GREEN = new BlockSkin(new BlockSkin_TextureLocation(2, 9), false);
+    BlockSkin WOOL_YELLOW = new BlockSkin(new BlockSkin_TextureLocation(2, 10), false);
+    BlockSkin WOOL_LIGHT_BLUE = new BlockSkin(new BlockSkin_TextureLocation(2, 11), false);
+    BlockSkin WOOL_LIGHT_PURPLE = new BlockSkin(new BlockSkin_TextureLocation(2, 12), false);
+    BlockSkin WOOL_ORANGE = new BlockSkin(new BlockSkin_TextureLocation(2, 13), false);
+    BlockSkin NETHERWART1 = new BlockSkin(new BlockSkin_TextureLocation(2, 14), false);
+    BlockSkin BLOCK_DMG_3 = new BlockSkin(new BlockSkin_TextureLocation(2, 15), true);
+
+    BlockSkin GRASS_SIDE = new BlockSkin(new BlockSkin_TextureLocation(3, 0), false);
+    BlockSkin GRAVEL = new BlockSkin(new BlockSkin_TextureLocation(3, 1), false);
+    BlockSkin BOOKSHELF = new BlockSkin(new BlockSkin_TextureLocation(3, 2), false);
+    BlockSkin REDSTONE_ORE = new BlockSkin(new BlockSkin_TextureLocation(3, 3), false);
+    BlockSkin ICE = new BlockSkin(new BlockSkin_TextureLocation(3, 4), false);
+    BlockSkin LADDER = new BlockSkin(new BlockSkin_TextureLocation(3, 5), true);
+    BlockSkin REDSTONE_TORCH_LIT = new BlockSkin(new BlockSkin_TextureLocation(3, 6), true);
+    BlockSkin REDSTONE_TORCH_UNLIT = new BlockSkin(new BlockSkin_TextureLocation(3, 7), true);
+    BlockSkin REPEATER_OFF = new BlockSkin(new BlockSkin_TextureLocation(3, 8), false);
+    BlockSkin REPEATER_ON = new BlockSkin(new BlockSkin_TextureLocation(3, 9), false);
+    BlockSkin POWERED_RAIL_OFF = new BlockSkin(new BlockSkin_TextureLocation(3, 10), true);
+    BlockSkin POWERED_RAIL_ON = new BlockSkin(new BlockSkin_TextureLocation(3, 11), true);
+    BlockSkin TRIGGERED_RAIL = new BlockSkin(new BlockSkin_TextureLocation(3, 12), true);
+    BlockSkin REDSTONE_LAMP_OFF = new BlockSkin(new BlockSkin_TextureLocation(3, 13), false);
+    BlockSkin NETHERWART2 = new BlockSkin(new BlockSkin_TextureLocation(3, 14), false);
+    BlockSkin BLOCK_DMG_4 = new BlockSkin(new BlockSkin_TextureLocation(3, 15), true);
+
+    BlockSkin WOOD = new BlockSkin(new BlockSkin_TextureLocation(4, 0), false);
+    BlockSkin LOG = new BlockSkin(new BlockSkin_TextureLocation(4, 1), false);
+    BlockSkin MOSSY_COBBLE = new BlockSkin(new BlockSkin_TextureLocation(4, 2), false);
+    BlockSkin GREY_LEAVES = new BlockSkin(new BlockSkin_TextureLocation(4, 3), false);
+    BlockSkin SNOW_SIDE = new BlockSkin(new BlockSkin_TextureLocation(4, 4), false);
+    BlockSkin TRAP_DOOR = new BlockSkin(new BlockSkin_TextureLocation(4, 5), true);
+    BlockSkin MOSSY_STONE_BRICK = new BlockSkin(new BlockSkin_TextureLocation(4, 6), true);
+    BlockSkin SPRUCE_LOG = new BlockSkin(new BlockSkin_TextureLocation(4, 7), false);
+    BlockSkin LEAVES = new BlockSkin(new BlockSkin_TextureLocation(4, 8), true);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(4, 9), false);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(4, 10), false);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(4, 11), false);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(4, 12), false);
+    BlockSkin REDSTONE_LAMP_ON = new BlockSkin(new BlockSkin_TextureLocation(4, 13), false);
+    BlockSkin NETHERWART3 = new BlockSkin(new BlockSkin_TextureLocation(4, 14), false);
+    BlockSkin BLOCK_DMG_5 = new BlockSkin(new BlockSkin_TextureLocation(4, 15), true);
+
+    BlockSkin SLABSTONE = new BlockSkin(new BlockSkin_TextureLocation(5, 0), false);
+    BlockSkin LOG_END = new BlockSkin(new BlockSkin_TextureLocation(5, 1), false);
+    BlockSkin OBSIDIAN = new BlockSkin(new BlockSkin_TextureLocation(5, 2), false);
+    BlockSkin DARK_COBBLE = new BlockSkin(new BlockSkin_TextureLocation(5, 3), false);
+    BlockSkin CACTUS_TOP = new BlockSkin(new BlockSkin_TextureLocation(5, 4), false);
+    BlockSkin IRON_BARS = new BlockSkin(new BlockSkin_TextureLocation(5, 5), true);
+    BlockSkin CRACKED_STONE_BRICK = new BlockSkin(new BlockSkin_TextureLocation(5, 6), true);
+    BlockSkin BIRCH_LOG = new BlockSkin(new BlockSkin_TextureLocation(5, 7), false);
+    BlockSkin GRAY_STONE = new BlockSkin(new BlockSkin_TextureLocation(5, 8), false);
+    BlockSkin BED_BOTTOM_END = new BlockSkin(new BlockSkin_TextureLocation(5, 9), false);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(5, 10), false);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(5, 11), false);
+    BlockSkin DRAGON_SCALE = new BlockSkin(new BlockSkin_TextureLocation(5, 12), false);
+    BlockSkin CHISELED_STONE = new BlockSkin(new BlockSkin_TextureLocation(5, 13), false);
+    BlockSkin CHISELED_SANDSTONE = new BlockSkin(new BlockSkin_TextureLocation(5, 14), false);
+    BlockSkin BLOCK_DMG_6 = new BlockSkin(new BlockSkin_TextureLocation(5, 15), true);
+
+    BlockSkin SMOOTSTONE = new BlockSkin(new BlockSkin_TextureLocation(6, 0), false);
+    BlockSkin IRON_BLOCK = new BlockSkin(new BlockSkin_TextureLocation(6, 1), false);
+    //BlockSkin IRON_SLAB = new BlockSkin(new BlockSkin_TextureLocation(6, 2), false);
+    BlockSkin STONE_BRICK = new BlockSkin(new BlockSkin_TextureLocation(6, 3), false);
+    BlockSkin CACTUS_SIDE = new BlockSkin(new BlockSkin_TextureLocation(6, 4), false);
+    BlockSkin CULTIVATED_DIRT = new BlockSkin(new BlockSkin_TextureLocation(6, 5), false);
+    BlockSkin PUMPKIN_TOP = new BlockSkin(new BlockSkin_TextureLocation(6, 6), false);
+    BlockSkin PUMPKIN_SIDE = new BlockSkin(new BlockSkin_TextureLocation(6, 7), false);
+    BlockSkin BED_BOTTOM = new BlockSkin(new BlockSkin_TextureLocation(6, 8), false);
+    BlockSkin BED_SIDE_BOTTOM = new BlockSkin(new BlockSkin_TextureLocation(6, 9), false);
+    BlockSkin ENCHANTING_TABLE_TOP = new BlockSkin(new BlockSkin_TextureLocation(6, 10), false);
+    BlockSkin ENCHANTING_TABLE_SIDE = new BlockSkin(new BlockSkin_TextureLocation(6, 11), false);
+    BlockSkin OAK_PLANKS = new BlockSkin(new BlockSkin_TextureLocation(6, 12), false);
+    BlockSkin BIRCH_PLANKS = new BlockSkin(new BlockSkin_TextureLocation(6, 13), false);
+    BlockSkin POLISHED_SANDSTONE = new BlockSkin(new BlockSkin_TextureLocation(6, 14), false);
+    BlockSkin BLOCK_DMG_7 = new BlockSkin(new BlockSkin_TextureLocation(6, 15), true);
+
+    BlockSkin BRICK = new BlockSkin(new BlockSkin_TextureLocation(7, 0), false);
+    BlockSkin GOLD_BLOCK = new BlockSkin(new BlockSkin_TextureLocation(7, 1), false);
+    //BlockSkin GOLD_SLAB = new BlockSkin(new BlockSkin_TextureLocation(7, 2), false);
+    BlockSkin GRASS = new BlockSkin(new BlockSkin_TextureLocation(7, 3), false);
+    BlockSkin THORNS = new BlockSkin(new BlockSkin_TextureLocation(7, 4), false);
+    BlockSkin CULTIVATED_DIRT_DRY = new BlockSkin(new BlockSkin_TextureLocation(7, 5), false);
+    BlockSkin NETHERAK = new BlockSkin(new BlockSkin_TextureLocation(7, 6), false);
+    BlockSkin PUMPKIN_FRONT_UNLIT = new BlockSkin(new BlockSkin_TextureLocation(7, 7), false);
+    BlockSkin BED_TOP = new BlockSkin(new BlockSkin_TextureLocation(7, 8), false);
+    BlockSkin BED_SIDE_TOP = new BlockSkin(new BlockSkin_TextureLocation(7, 9), false);
+    BlockSkin COAL_BLOCK = new BlockSkin(new BlockSkin_TextureLocation(7, 10), false);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(7, 11), false);
+    BlockSkin SPRUCE_PLANKS = new BlockSkin(new BlockSkin_TextureLocation(7, 12), false);
+    BlockSkin SMOOTH_GRAY_STONE  = new BlockSkin(new BlockSkin_TextureLocation(7, 13), false);
+    BlockSkin STONE_POST_1 = new BlockSkin(new BlockSkin_TextureLocation(7, 14), false);
+    BlockSkin BLOCK_DMG_8 = new BlockSkin(new BlockSkin_TextureLocation(7, 15), true);
+
+    BlockSkin TNT_SIDE = new BlockSkin(new BlockSkin_TextureLocation(8, 0), false);
+    BlockSkin DIAMOND_BLOCK = new BlockSkin(new BlockSkin_TextureLocation(8, 1), false);
+    BlockSkin SPECKLED_GRAY_STONE = new BlockSkin(new BlockSkin_TextureLocation(8, 2), false);
+    //BlockSkin DIAMOND_BLOCK_DARK = new BlockSkin(new BlockSkin_TextureLocation(8, 3), false);
+    BlockSkin POLISHED_STONE = new BlockSkin(new BlockSkin_TextureLocation(8, 4), false);
+    BlockSkin WHEAT_1 = new BlockSkin(new BlockSkin_TextureLocation(8, 5), true);
+    BlockSkin SOULSAND = new BlockSkin(new BlockSkin_TextureLocation(8, 6), false);
+    BlockSkin PUMPKIN_FRONT_LIT = new BlockSkin(new BlockSkin_TextureLocation(8, 7), false);
+    BlockSkin MELON_SIDE = new BlockSkin(new BlockSkin_TextureLocation(8, 8), false);
+    BlockSkin BED_TOP_END = new BlockSkin(new BlockSkin_TextureLocation(8, 9), false);
+    BlockSkin COCO_3 = new BlockSkin(new BlockSkin_TextureLocation(8, 10), false);
+    BlockSkin COMMAND = new BlockSkin(new BlockSkin_TextureLocation(8, 11), false);
+    BlockSkin CARROT_1 = new BlockSkin(new BlockSkin_TextureLocation(8, 12), false);
+    BlockSkin STONE_POST_2 = new BlockSkin(new BlockSkin_TextureLocation(8, 13), false);
+    BlockSkin STONE_POST_3 = new BlockSkin(new BlockSkin_TextureLocation(8, 14), false);
+    BlockSkin BLOCK_DMG_9 = new BlockSkin(new BlockSkin_TextureLocation(8, 15), true);
+
+
+    BlockSkin TNT_TOP = new BlockSkin(new BlockSkin_TextureLocation(9, 0), false);
+    BlockSkin EMRALD_BLOCK = new BlockSkin(new BlockSkin_TextureLocation(9, 1), false);
+    BlockSkin LAMP_BLOCK = new BlockSkin(new BlockSkin_TextureLocation(9, 2), false);
+    //BlockSkin LARGECHEST_BACK_LEFT = new BlockSkin(new BlockSkin_TextureLocation(9, 3), false);
+    BlockSkin BAMBOO = new BlockSkin(new BlockSkin_TextureLocation(9, 4), true);
+    BlockSkin WHEAT_2 = new BlockSkin(new BlockSkin_TextureLocation(9, 5), true);
+    BlockSkin GLOWSTONE = new BlockSkin(new BlockSkin_TextureLocation(9, 6), false);
+    BlockSkin CAKE_TOP = new BlockSkin(new BlockSkin_TextureLocation(9, 7), false);
+    BlockSkin MELON_TOP = new BlockSkin(new BlockSkin_TextureLocation(9, 8), false);
+    BlockSkin JUNGLE_LOG = new BlockSkin(new BlockSkin_TextureLocation(9, 9), false);
+    BlockSkin COCO_2 = new BlockSkin(new BlockSkin_TextureLocation(9, 10), false);
+    BlockSkin SPEAKER = new BlockSkin(new BlockSkin_TextureLocation(9, 11), false);
+    BlockSkin CARROT_2 = new BlockSkin(new BlockSkin_TextureLocation(9, 12), false);
+    BlockSkin CHEST_TOP = new BlockSkin(new BlockSkin_TextureLocation(9, 13), false);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(9, 14), false);
+    BlockSkin BLOCK_DMG_10 = new BlockSkin(new BlockSkin_TextureLocation(9, 15), true);
+
+    BlockSkin TNT_BOTTOM = new BlockSkin(new BlockSkin_TextureLocation(10, 0), false);
+    BlockSkin BIRCH_LOG_END = new BlockSkin(new BlockSkin_TextureLocation(10, 1), false);
+    //BlockSkin LARGECHEST_FRONT_RIGHT = new BlockSkin(new BlockSkin_TextureLocation(10, 2), false);
+    //BlockSkin LARGECHEST_BACK_RIGHT = new BlockSkin(new BlockSkin_TextureLocation(10, 3), false);
+    BlockSkin NOTEBLOCK_SIDE = new BlockSkin(new BlockSkin_TextureLocation(10, 4), false);
+    BlockSkin WHEAT_3 = new BlockSkin(new BlockSkin_TextureLocation(10, 5), false);
+    BlockSkin STICKY_PISTON_TOP = new BlockSkin(new BlockSkin_TextureLocation(10, 6), false);
+    BlockSkin CAKE_CUT = new BlockSkin(new BlockSkin_TextureLocation(10, 7), false);
+    //BlockSkin CALDRON_TOP = new BlockSkin(new BlockSkin_TextureLocation(10, 8), false);
+    BlockSkin CALDRON_SIDE = new BlockSkin(new BlockSkin_TextureLocation(10, 9), false);
+    BlockSkin COCO_1 = new BlockSkin(new BlockSkin_TextureLocation(10, 10), false);
+    BlockSkin FLOWERPOT = new BlockSkin(new BlockSkin_TextureLocation(10, 11), false);
+    BlockSkin CARROT_3 = new BlockSkin(new BlockSkin_TextureLocation(10, 12), false);
+    BlockSkin CHEST_SIDE = new BlockSkin(new BlockSkin_TextureLocation(10, 13), false);
+    //BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(10, 14), false);
+    BlockSkin FOOTPRINT = new BlockSkin(new BlockSkin_TextureLocation(10, 15), true);
+
+    BlockSkin INVISIBLE = new BlockSkin(new BlockSkin_TextureLocation(11, 0), false);
+    //BlockSkin CHEST_FRONT = new BlockSkin(new BlockSkin_TextureLocation(11, 1), false);
+    BlockSkin CRAFTING_TOP_BOTTOM = new BlockSkin(new BlockSkin_TextureLocation(11, 2), false);
+    BlockSkin CRAFTING_SIDES = new BlockSkin(new BlockSkin_TextureLocation(11, 3), false);
+    BlockSkin NOTEBLOCK_TOP = new BlockSkin(new BlockSkin_TextureLocation(11, 4), false);
+    BlockSkin WHEAT_4 = new BlockSkin(new BlockSkin_TextureLocation(11, 5), true);
+    BlockSkin PISTON_TOP = new BlockSkin(new BlockSkin_TextureLocation(11, 6), false);
+    //BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(11, 7), false);
+    BlockSkin CALDRON_TOP = new BlockSkin(new BlockSkin_TextureLocation(11, 8), false);
+    BlockSkin CALDRON_BOTTOM = new BlockSkin(new BlockSkin_TextureLocation(11, 9), false);
+    BlockSkin GEMSTONE_ORE = new BlockSkin(new BlockSkin_TextureLocation(11, 10), false);
+    //BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(11, 11), false);
+    BlockSkin CARROT_4 = new BlockSkin(new BlockSkin_TextureLocation(11, 12), false);
+    BlockSkin CHEST_FRONT = new BlockSkin(new BlockSkin_TextureLocation(11, 13), false);
+    //BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(11, 14), false);
+    BlockSkin RAIL_STRAIGHT = new BlockSkin(new BlockSkin_TextureLocation(11, 15), false);
+
+    BlockSkin ROSE = new BlockSkin(new BlockSkin_TextureLocation(12, 0), true);
+    BlockSkin MUSHROOM_RED = new BlockSkin(new BlockSkin_TextureLocation(12, 1), true);
+    BlockSkin FURNACE_FRONT_UNLIT = new BlockSkin(new BlockSkin_TextureLocation(12, 2), false);
+    BlockSkin CRAFTING_FRONTBACK = new BlockSkin(new BlockSkin_TextureLocation(12, 3), false);
+    BlockSkin LILIPAD = new BlockSkin(new BlockSkin_TextureLocation(12, 4), false);
+    BlockSkin WHEAT_5 = new BlockSkin(new BlockSkin_TextureLocation(12, 5), true);
+    BlockSkin PISTON_SIDE = new BlockSkin(new BlockSkin_TextureLocation(12, 6), false);
+    BlockSkin MUSCHROOM_LOG_END = new BlockSkin(new BlockSkin_TextureLocation(12, 7), false);
+    BlockSkin CAKE_ICON = new BlockSkin(new BlockSkin_TextureLocation(12, 8), false);
+    BlockSkin TRI_HOLE = new BlockSkin(new BlockSkin_TextureLocation(12, 9), false);
+    BlockSkin TRIPWIRE_HOOK = new BlockSkin(new BlockSkin_TextureLocation(12, 10), false);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(12, 11), false);
+    BlockSkin POTATO = new BlockSkin(new BlockSkin_TextureLocation(12, 12), true);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(12, 13), false);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(12, 14), false);
+    BlockSkin RAIL_CURVE = new BlockSkin(new BlockSkin_TextureLocation(12, 15), false);
+
+
+    BlockSkin DAISY = new BlockSkin(new BlockSkin_TextureLocation(13, 0), true);
+    BlockSkin MUSHROOM_BROWN = new BlockSkin(new BlockSkin_TextureLocation(13, 1), true);
+    BlockSkin FURNACE_SIDE = new BlockSkin(new BlockSkin_TextureLocation(13, 2), false);
+    BlockSkin FURNACE_FRONT_LIT = new BlockSkin(new BlockSkin_TextureLocation(13, 3), false);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(13, 4), false);
+    BlockSkin WHEAT_6 = new BlockSkin(new BlockSkin_TextureLocation(13, 5), true);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(13, 6), false);
+    BlockSkin PISTON_BOTTOM = new BlockSkin(new BlockSkin_TextureLocation(13, 7), false);
+    BlockSkin MUSHROOM_BLOCK_RED = new BlockSkin(new BlockSkin_TextureLocation(13, 8), false);
+    BlockSkin MUSHROOM_LOG = new BlockSkin(new BlockSkin_TextureLocation(13, 9), false);
+    BlockSkin OAK_LEAVES = new BlockSkin(new BlockSkin_TextureLocation(13, 10), true);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(13, 11), false);
+    BlockSkin WATER_1 = new BlockSkin(new BlockSkin_TextureLocation(13, 12), false);
+    //BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(13, 13), false);
+    BlockSkin LAVA_1 = new BlockSkin(new BlockSkin_TextureLocation(13, 14), false);
+    //BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(13, 15), false);
+
+    BlockSkin BLUE = new BlockSkin(new BlockSkin_TextureLocation(14, 0), false);
+    BlockSkin SPRUCE_SAPLING = new BlockSkin(new BlockSkin_TextureLocation(14, 1), false);
+    BlockSkin DISPENSER_FRONT = new BlockSkin(new BlockSkin_TextureLocation(14, 2), false);
+    BlockSkin DISPENSER_SIDE = new BlockSkin(new BlockSkin_TextureLocation(14, 3), false);
+    BlockSkin MOOSH = new BlockSkin(new BlockSkin_TextureLocation(14, 4), false);
+    BlockSkin WHEAT_7 = new BlockSkin(new BlockSkin_TextureLocation(14, 5), true);
+    BlockSkin DROPPER_FRONT = new BlockSkin(new BlockSkin_TextureLocation(14, 6), false);
+    BlockSkin WET_SPONGE = new BlockSkin(new BlockSkin_TextureLocation(14, 7), false);
+    BlockSkin MUSHROOM_BLOCK_SPECK = new BlockSkin(new BlockSkin_TextureLocation(14, 8), false);
+    BlockSkin END_PORTAL = new BlockSkin(new BlockSkin_TextureLocation(14, 9), false);
+    BlockSkin END_PORTAL_EYE = new BlockSkin(new BlockSkin_TextureLocation(14, 10), false);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(14, 11), false);
+    BlockSkin WATER_2 = new BlockSkin(new BlockSkin_TextureLocation(14, 12), false);
+    BlockSkin WATER_3 = new BlockSkin(new BlockSkin_TextureLocation(14, 13), false);
+    BlockSkin LAVA_2 = new BlockSkin(new BlockSkin_TextureLocation(14, 14), false);
+    BlockSkin LAVA_3 = new BlockSkin(new BlockSkin_TextureLocation(14, 15), false);
+
+
+    BlockSkin OAK_SAPLING = new BlockSkin(new BlockSkin_TextureLocation(15, 0), true);
+    BlockSkin FIRE_TEXT = new BlockSkin(new BlockSkin_TextureLocation(15, 1), false);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(15, 2), false);
+    BlockSkin TALL_ROSE = new BlockSkin(new BlockSkin_TextureLocation(15, 3), true);
+    BlockSkin BIRCH_SAPLING = new BlockSkin(new BlockSkin_TextureLocation(15, 4), true);
+    BlockSkin WHEAT_8 = new BlockSkin(new BlockSkin_TextureLocation(15, 5), true);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(15, 6), false);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(15, 7), false);
+    BlockSkin VINES = new BlockSkin(new BlockSkin_TextureLocation(15, 8), true);
+    BlockSkin END_SPONGE_SIDE = new BlockSkin(new BlockSkin_TextureLocation(15, 9), false);
+    BlockSkin END_SPONGE = new BlockSkin(new BlockSkin_TextureLocation(15, 10), false);
+//    BlockSkin COBBLE = new BlockSkin(new BlockSkin_TextureLocation(15, 11), false);
+    BlockSkin WATER_4 = new BlockSkin(new BlockSkin_TextureLocation(15, 12), false);
+    BlockSkin WATER_5 = new BlockSkin(new BlockSkin_TextureLocation(15, 13), false);
+    BlockSkin LAVA_4 = new BlockSkin(new BlockSkin_TextureLocation(15, 14), false);
+    BlockSkin LAVA_5 = new BlockSkin(new BlockSkin_TextureLocation(15, 15), false);
+
+    BlockSkin WOODEN_DOOR_TOP = new BlockSkin(new BlockSkin_TextureLocation(1, 5), false);
+    BlockSkin WOODEN_DOOR_BOTTOM = new BlockSkin(new BlockSkin_TextureLocation(1, 6), false);
+    BlockSkin TRANSPARENT = new BlockSkin(new BlockSkin_TextureLocation(4, 11), true);
+}
