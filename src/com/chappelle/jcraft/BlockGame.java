@@ -14,6 +14,9 @@ import com.jme3.system.AppSettings;
 import java.io.Serializable;
 import java.util.logging.Logger;
 
+/**
+ * This is the main for the game
+ */
 public class BlockGame extends SimpleApplication implements Serializable
 {
     private BulletAppState bulletAppState;
